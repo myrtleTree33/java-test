@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'org.joeltong'
+version '1.0.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.13.1'
+    testCompile 'com.greghaskins:spectrum:1.2.0'
+    testCompile 'org.hamcrest:hamcrest-all:2.2'
+}
